@@ -10,20 +10,18 @@ using namespace std;
 
 int main()
 {
-    string lines;
-    char* newLine;
+    char line[20];
+    string lines = "";
+
     std::ifstream rfile;
     rfile.open("C:\\Users\\TEMP\\Desktop\\graph-puzzle-game-saiddas\\src\\dictionary.txt");
-    if(rfile.is_open())
-    {
-        while (rfile.getline(newLine, 20))
-        {
-            lines = lines + newLine;
+    if(rfile.is_open()) {
+        while (rfile.getline(line, 20)) {
+            std::cout << line << std::endl;
+            lines = lines + line;
         }
     }
     rfile.close();
-
-    cout << lines << std::endl;
 
     exit(0);
 }
