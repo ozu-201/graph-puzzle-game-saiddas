@@ -19,7 +19,7 @@ int main()
     char line[length];
     string lines = "";
 
-    // Read the data
+    // Read the data and add to graph
     if(rfile.is_open()) {
         while (rfile.getline(line, 20)) {
             lines = lines + line + "\n";
