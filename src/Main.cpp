@@ -10,11 +10,16 @@ using namespace std;
 
 int main()
 {
-    char line[20];
-    string lines = "";
-
+    // Open file
     std::ifstream rfile;
     rfile.open("C:\\Users\\TEMP\\Desktop\\graph-puzzle-game-saiddas\\src\\dictionary.txt");
+
+    // Measure the length and create variable for saving
+    int length = 999999;
+    char line[length];
+    string lines = "";
+
+
     if(rfile.is_open()) {
         while (rfile.getline(line, 20)) {
             std::cout << line << std::endl;
