@@ -19,14 +19,18 @@ int main()
     char line[length];
     string lines = "";
 
-
+    // Read the data
     if(rfile.is_open()) {
         while (rfile.getline(line, 20)) {
-            std::cout << line << std::endl;
-            lines = lines + line;
+            lines = lines + line + "\n";
+            Node node = new Node(line);
+            Graph.add(node);
         }
     }
     rfile.close();
+
+    std::cout << lines;
+
 
     exit(0);
 }
