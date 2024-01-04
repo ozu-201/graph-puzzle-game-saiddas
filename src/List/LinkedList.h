@@ -6,7 +6,7 @@
 #define DATASTRUCTURES_CPP_LINKEDLIST_H
 
 
-#include "Node.h"
+#include "../Node.h"
 
 class LinkedList {
 protected:

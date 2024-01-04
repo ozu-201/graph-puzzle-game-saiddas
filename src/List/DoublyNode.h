@@ -6,7 +6,7 @@
 #define DATASTRUCTURES_CPP_DOUBLYNODE_H
 
 
-#include "Node.h"
+#include "../Node.h"
 
 class DoublyNode : public Node{
 private:

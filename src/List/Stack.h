@@ -6,7 +6,7 @@
 #define DATASTRUCTURES_CPP_STACK_H
 
 
-#include "Node.h"
+#include "../Node.h"
 
 namespace list{
 

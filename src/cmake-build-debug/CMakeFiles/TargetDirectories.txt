@@ -1,0 +1,3 @@
+C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/cmake-build-debug/CMakeFiles/graph-puzzle-game-saiddas.dir
+C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

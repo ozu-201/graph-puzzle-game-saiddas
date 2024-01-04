@@ -5,7 +5,7 @@
 #ifndef DATASTRUCTURES_CPP_QUEUE_H
 #define DATASTRUCTURES_CPP_QUEUE_H
 
-#include "Node.h"
+#include "../Node.h"
 
 namespace list {
 

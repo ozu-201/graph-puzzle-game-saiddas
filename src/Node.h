@@ -1,7 +1,3 @@
-//
-// Created by Olcay Taner YILDIZ on 6.03.2023.
-//
-
 #ifndef DATASTRUCTURES_CPP_NODE_H
 #define DATASTRUCTURES_CPP_NODE_H
 #include <string>
@@ -10,15 +6,13 @@ using namespace  std;
 
 class Node {
 private:
-    int data;
+    string data;
     Node* next;
 public:
-    explicit Node(int data);
+    explicit Node(string data);
     void setNext(Node* _next);
     Node* getNext();
-    int getData();
-    string to_string();
+    string getData();
 };
 
-
-#endif //DATASTRUCTURES_CPP_NODE_H
+#endif

@@ -3,9 +3,9 @@
 //
 
 #include "Graph.h"
-#include "../../Array/DisjointSet.h"
-#include "../Queue.h"
-#include "../../Array/Heap/MinHeap.h"
+#include "Array/DisjointSet.h"
+#include "List/Queue.h"
+#include "Array/Heap/MinHeap.h"
 
 namespace list {
 
