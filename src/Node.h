@@ -13,6 +13,7 @@ public:
     void setNext(Node* _next);
     Node* getNext();
     string getData();
+    bool lexicallyNeighbor(Node* compare);
 };
 
 #endif

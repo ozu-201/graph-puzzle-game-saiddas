@@ -20,3 +20,16 @@ Node *Node::getNext() {
 string Node::getData() {
     return data;
 }
+
+bool Node::lexicallyNeighbor(Node* compare) {
+    string string1 = this->getData();
+    string string2 = compare->getData();
+    bool result = false;
+
+    while (string1) {
+
+    }
+
+
+    return result;
+}

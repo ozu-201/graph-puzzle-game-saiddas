@@ -55,7 +55,7 @@ namespace list {
             edge = edge->getNext();
         }
     }
-
+/*
     void Graph::breadthFirstSearch(bool *visited, int startNode) {
         Edge* edge;
         int fromNode, toNode;
@@ -166,4 +166,5 @@ namespace list {
             }
         }
     }
+    */
 }

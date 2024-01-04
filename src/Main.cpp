@@ -33,8 +33,8 @@ int main()
     while (tmp != nullptr) {
         Node *temp = linkedList->getHead();
         while (temp != nullptr) {
-            if () {
-
+            if (tmp->lexicallyNeighbor(temp)) {
+                graph->addEdge(tmp, temp);
             }
 
             temp = temp->getNext();
