@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/Graph.cpp">
+			<Option target="graph-puzzle-game-saiddas"/>
+		</Unit>
+		<Unit filename="C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/Graph.h">
+			<Option target="graph-puzzle-game-saiddas"/>
+		</Unit>
 		<Unit filename="C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/Main.cpp">
 			<Option target="graph-puzzle-game-saiddas"/>
 		</Unit>
 		<Unit filename="C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/Main.h">
+			<Option target="graph-puzzle-game-saiddas"/>
+		</Unit>
+		<Unit filename="C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/Node.cpp">
+			<Option target="graph-puzzle-game-saiddas"/>
+		</Unit>
+		<Unit filename="C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/Node.h">
 			<Option target="graph-puzzle-game-saiddas"/>
 		</Unit>
 		<Unit filename="C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/CMakeLists.txt">

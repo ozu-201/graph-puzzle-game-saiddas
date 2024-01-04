@@ -3,4 +3,4 @@ project(graph-puzzle-game-saiddas)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(graph-puzzle-game-saiddas Main.cpp)
+add_executable(graph-puzzle-game-saiddas Main.cpp Node.cpp List/Graph/Graph.cpp)

@@ -6,8 +6,8 @@
 #define DATASTRUCTURES_CPP_GRAPH_H
 
 
-#include "List/Graph/EdgeList.h"
-#include "General/AbstractGraph.h"
+#include "EdgeList.h"
+#include "../../General/AbstractGraph.h"
 
 namespace list {
 

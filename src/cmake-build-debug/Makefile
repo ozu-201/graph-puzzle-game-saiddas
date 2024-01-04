@@ -128,6 +128,30 @@ graph-puzzle-game-saiddas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-saiddas.dir\build.make CMakeFiles/graph-puzzle-game-saiddas.dir/build
 .PHONY : graph-puzzle-game-saiddas/fast
 
+Graph.obj: Graph.cpp.obj
+.PHONY : Graph.obj
+
+# target to build an object file
+Graph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-saiddas.dir\build.make CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.obj
+.PHONY : Graph.cpp.obj
+
+Graph.i: Graph.cpp.i
+.PHONY : Graph.i
+
+# target to preprocess a source file
+Graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-saiddas.dir\build.make CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
+
+Graph.s: Graph.cpp.s
+.PHONY : Graph.s
+
+# target to generate assembly for a file
+Graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-saiddas.dir\build.make CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
+
 Main.obj: Main.cpp.obj
 .PHONY : Main.obj
 
@@ -152,6 +176,30 @@ Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-saiddas.dir\build.make CMakeFiles/graph-puzzle-game-saiddas.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
+Node.obj: Node.cpp.obj
+.PHONY : Node.obj
+
+# target to build an object file
+Node.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-saiddas.dir\build.make CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.obj
+.PHONY : Node.cpp.obj
+
+Node.i: Node.cpp.i
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-saiddas.dir\build.make CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-saiddas.dir\build.make CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... graph-puzzle-game-saiddas
+	@echo ... Graph.obj
+	@echo ... Graph.i
+	@echo ... Graph.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
+	@echo ... Node.obj
+	@echo ... Node.i
+	@echo ... Node.s
 .PHONY : help
 
 

@@ -82,19 +82,51 @@ CMakeFiles/graph-puzzle-game-saiddas.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph-puzzle-game-saiddas.dir/Main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\Main.cpp -o CMakeFiles\graph-puzzle-game-saiddas.dir\Main.cpp.s
 
+CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.obj: CMakeFiles/graph-puzzle-game-saiddas.dir/flags.make
+CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.obj: C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/Node.cpp
+CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.obj: CMakeFiles/graph-puzzle-game-saiddas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.obj -MF CMakeFiles\graph-puzzle-game-saiddas.dir\Node.cpp.obj.d -o CMakeFiles\graph-puzzle-game-saiddas.dir\Node.cpp.obj -c C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\Node.cpp
+
+CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\Node.cpp > CMakeFiles\graph-puzzle-game-saiddas.dir\Node.cpp.i
+
+CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\Node.cpp -o CMakeFiles\graph-puzzle-game-saiddas.dir\Node.cpp.s
+
+CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.obj: CMakeFiles/graph-puzzle-game-saiddas.dir/flags.make
+CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.obj: C:/Users/TEMP.OZUN.000/Desktop/graph-puzzle-game-saiddas/src/Graph.cpp
+CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.obj: CMakeFiles/graph-puzzle-game-saiddas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.obj -MF CMakeFiles\graph-puzzle-game-saiddas.dir\Graph.cpp.obj.d -o CMakeFiles\graph-puzzle-game-saiddas.dir\Graph.cpp.obj -c C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\Graph.cpp
+
+CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\Graph.cpp > CMakeFiles\graph-puzzle-game-saiddas.dir\Graph.cpp.i
+
+CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\Graph.cpp -o CMakeFiles\graph-puzzle-game-saiddas.dir\Graph.cpp.s
+
 # Object files for target graph-puzzle-game-saiddas
 graph__puzzle__game__saiddas_OBJECTS = \
-"CMakeFiles/graph-puzzle-game-saiddas.dir/Main.cpp.obj"
+"CMakeFiles/graph-puzzle-game-saiddas.dir/Main.cpp.obj" \
+"CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.obj" \
+"CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.obj"
 
 # External object files for target graph-puzzle-game-saiddas
 graph__puzzle__game__saiddas_EXTERNAL_OBJECTS =
 
 graph-puzzle-game-saiddas.exe: CMakeFiles/graph-puzzle-game-saiddas.dir/Main.cpp.obj
+graph-puzzle-game-saiddas.exe: CMakeFiles/graph-puzzle-game-saiddas.dir/Node.cpp.obj
+graph-puzzle-game-saiddas.exe: CMakeFiles/graph-puzzle-game-saiddas.dir/Graph.cpp.obj
 graph-puzzle-game-saiddas.exe: CMakeFiles/graph-puzzle-game-saiddas.dir/build.make
 graph-puzzle-game-saiddas.exe: CMakeFiles/graph-puzzle-game-saiddas.dir/linkLibs.rsp
 graph-puzzle-game-saiddas.exe: CMakeFiles/graph-puzzle-game-saiddas.dir/objects1
 graph-puzzle-game-saiddas.exe: CMakeFiles/graph-puzzle-game-saiddas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable graph-puzzle-game-saiddas.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP.OZUN.000\Desktop\graph-puzzle-game-saiddas\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable graph-puzzle-game-saiddas.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\graph-puzzle-game-saiddas.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

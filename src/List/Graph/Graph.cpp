@@ -1,11 +1,7 @@
-//
-// Created by Olcay Taner YILDIZ on 8.05.2023.
-//
-
 #include "Graph.h"
-#include "Array/DisjointSet.h"
-#include "List/Queue.h"
-#include "Array/Heap/MinHeap.h"
+#include "../../Array/DisjointSet.h"
+#include "../Queue.h"
+#include "../../Array/Heap/MinHeap.h"
 
 namespace list {
 
@@ -170,5 +166,4 @@ namespace list {
             }
         }
     }
-
 }
